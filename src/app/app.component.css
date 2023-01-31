@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+}
+.pages ul li{
+    display:grid;
+}
+.image-slide{
+    width: 400px;
+    height: 300px;
+}
+.image-slide img{
+    max-width: fit-content;
+    max-height: fit-content;
+}
