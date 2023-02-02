@@ -1,0 +1,878 @@
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+body {
+    background-color: var(--body-bg);
+    color: var(--body-clr);
+    font-size: 1.6rem;
+    font-style: normal;
+    letter-spacing: -.64px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Montserrat,sans-serif;
+}
+.btn, .h__icon, body {
+    line-height: 1;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.page, body, html {
+    height: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root.mystic-copper {
+    --theme: var(--theme-mystic-copper);
+    --logo-clr: var(--theme-mystic-copper);
+    --body-bg: #fff;
+    --body-clr: var(--clr-light);
+    --bg-42: #c4c3c3;
+    --clr: #010101;
+    --clr-pri: var(--clr-dark);
+    --clr-sec: #000;
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --hover-clr-pri: #000;
+}
+:root {
+    --theme-orion-red: #eb100c;
+    --theme-sirius-white: #fff;
+    --theme-all-star-black: #010101;
+    --theme-jasper-red: #892226;
+    --theme-moonstone-white: #e4e4e4;
+    --theme-mystic-copper: #91493d;
+    --theme-cosmic-carbon: #5f6354;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-link: #d1001f;
+    --clr-txt-light: #d0d0d0;
+    --clr-primary: #91001f;
+    --clr-primary-dark: #5e0014;
+    --btn-f-size: 1.3rem;
+    --btn-f-weight: 600;
+    --btn-pad: 13px 32px 12px;
+    --page-bleed: 30px;
+    --theme: var(--theme-orion-red);
+    --logo-clr: var(--clr-dark);
+    --body-bg: #eee;
+    --body-clr: var(--clr-dark);
+    --bg-42: #c4c3c3;
+    --clr: var(--theme-orion-red);
+    --clr-pri: var(--clr-dark);
+    --clr-sec: var(--clr-dark);
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --clr-sec-btn: var(--clr-light);
+    --clr-sec-btn-bg: var(--clr-dark);
+    --hover-clr-pri: #ff0400;
+    --font-display: CA-MagicHour,sans-serif;
+}
+html {
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 62.5%;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#990021,#6E0018) #990021;
+    border: 1px solid #6E0018;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+.grid-sb {
+    justify-content: space-between;
+}
+.grid-sb {
+    justify-content: space-between;
+}
+.grid-am {
+    align-items: center;
+}
+.grid-flex {
+    display: flex;
+}
+.header--main {
+    padding-right: 112px;
+}
+.header {
+    background-color: transparent;
+    padding: 20px var(--page-bleed);
+    z-index: 9;
+}
+.header, .page {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.header, .vertical-strip, html {
+    position: fixed;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+header {
+    display: block;
+}
+body {
+    background-color: var(--body-bg);
+    color: var(--body-clr);
+    font-size: 1.6rem;
+    font-style: normal;
+    letter-spacing: -.64px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Montserrat,sans-serif;
+}
+.btn, .h__icon, body {
+    line-height: 1;
+}
+:root.mystic-copper {
+    --theme: var(--theme-mystic-copper);
+    --logo-clr: var(--theme-mystic-copper);
+    --body-bg: #fff;
+    --body-clr: var(--clr-light);
+    --bg-42: #c4c3c3;
+    --clr: #010101;
+    --clr-pri: var(--clr-dark);
+    --clr-sec: #000;
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --hover-clr-pri: #000;
+}
+:root {
+    --theme-orion-red: #eb100c;
+    --theme-sirius-white: #fff;
+    --theme-all-star-black: #010101;
+    --theme-jasper-red: #892226;
+    --theme-moonstone-white: #e4e4e4;
+    --theme-mystic-copper: #91493d;
+    --theme-cosmic-carbon: #5f6354;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-link: #d1001f;
+    --clr-txt-light: #d0d0d0;
+    --clr-primary: #91001f;
+    --clr-primary-dark: #5e0014;
+    --btn-f-size: 1.3rem;
+    --btn-f-weight: 600;
+    --btn-pad: 13px 32px 12px;
+    --page-bleed: 30px;
+    --theme: var(--theme-orion-red);
+    --logo-clr: var(--clr-dark);
+    --body-bg: #eee;
+    --body-clr: var(--clr-dark);
+    --bg-42: #c4c3c3;
+    --clr: var(--theme-orion-red);
+    --clr-pri: var(--clr-dark);
+    --clr-sec: var(--clr-dark);
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --clr-sec-btn: var(--clr-light);
+    --clr-sec-btn-bg: var(--clr-dark);
+    --hover-clr-pri: #ff0400;
+    --font-display: CA-MagicHour,sans-serif;
+}
+html {
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 62.5%;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#990021,#6E0018) #990021;
+    border: 1px solid #6E0018;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+.header__logo {
+    display: block;
+    height: 40px;
+    transition: transform .9s ease-in;
+    width: 74px;
+}
+a {
+    color: var(--clr-link);
+    text-decoration: none;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    background-color: var(--body-bg);
+    color: var(--body-clr);
+    font-size: 1.6rem;
+    font-style: normal;
+    letter-spacing: -.64px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Montserrat,sans-serif;
+}
+.btn, .h__icon, body {
+    line-height: 1;
+}
+:root.mystic-copper {
+    --theme: var(--theme-mystic-copper);
+    --logo-clr: var(--theme-mystic-copper);
+    --body-bg: #fff;
+    --body-clr: var(--clr-light);
+    --bg-42: #c4c3c3;
+    --clr: #010101;
+    --clr-pri: var(--clr-dark);
+    --clr-sec: #000;
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --hover-clr-pri: #000;
+}
+:root {
+    --theme-orion-red: #eb100c;
+    --theme-sirius-white: #fff;
+    --theme-all-star-black: #010101;
+    --theme-jasper-red: #892226;
+    --theme-moonstone-white: #e4e4e4;
+    --theme-mystic-copper: #91493d;
+    --theme-cosmic-carbon: #5f6354;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-link: #d1001f;
+    --clr-txt-light: #d0d0d0;
+    --clr-primary: #91001f;
+    --clr-primary-dark: #5e0014;
+    --btn-f-size: 1.3rem;
+    --btn-f-weight: 600;
+    --btn-pad: 13px 32px 12px;
+    --page-bleed: 30px;
+    --theme: var(--theme-orion-red);
+    --logo-clr: var(--clr-dark);
+    --body-bg: #eee;
+    --body-clr: var(--clr-dark);
+    --bg-42: #c4c3c3;
+    --clr: var(--theme-orion-red);
+    --clr-pri: var(--clr-dark);
+    --clr-sec: var(--clr-dark);
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --clr-sec-btn: var(--clr-light);
+    --clr-sec-btn-bg: var(--clr-dark);
+    --hover-clr-pri: #ff0400;
+    --font-display: CA-MagicHour,sans-serif;
+}
+html {
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 62.5%;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#990021,#6E0018) #990021;
+    border: 1px solid #6E0018;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+.header__logo-svg {
+    fill: var(--logo-clr);
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+}
+.header__logo-svg, .section {
+    height: 100%;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+a {
+    color: var(--clr-link);
+    text-decoration: none;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+body {
+    background-color: var(--body-bg);
+    color: var(--body-clr);
+    font-size: 1.6rem;
+    font-style: normal;
+    letter-spacing: -.64px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Montserrat,sans-serif;
+}
+.btn, .h__icon, body {
+    line-height: 1;
+}
+:root.mystic-copper {
+    --theme: var(--theme-mystic-copper);
+    --logo-clr: var(--theme-mystic-copper);
+    --body-bg: #fff;
+    --body-clr: var(--clr-light);
+    --bg-42: #c4c3c3;
+    --clr: #010101;
+    --clr-pri: var(--clr-dark);
+    --clr-sec: #000;
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --hover-clr-pri: #000;
+}
+:root {
+    --theme-orion-red: #eb100c;
+    --theme-sirius-white: #fff;
+    --theme-all-star-black: #010101;
+    --theme-jasper-red: #892226;
+    --theme-moonstone-white: #e4e4e4;
+    --theme-mystic-copper: #91493d;
+    --theme-cosmic-carbon: #5f6354;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-link: #d1001f;
+    --clr-txt-light: #d0d0d0;
+    --clr-primary: #91001f;
+    --clr-primary-dark: #5e0014;
+    --btn-f-size: 1.3rem;
+    --btn-f-weight: 600;
+    --btn-pad: 13px 32px 12px;
+    --page-bleed: 30px;
+    --theme: var(--theme-orion-red);
+    --logo-clr: var(--clr-dark);
+    --body-bg: #eee;
+    --body-clr: var(--clr-dark);
+    --bg-42: #c4c3c3;
+    --clr: var(--theme-orion-red);
+    --clr-pri: var(--clr-dark);
+    --clr-sec: var(--clr-dark);
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --clr-sec-btn: var(--clr-light);
+    --clr-sec-btn-bg: var(--clr-dark);
+    --hover-clr-pri: #ff0400;
+    --font-display: CA-MagicHour,sans-serif;
+}
+html {
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 62.5%;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#990021,#6E0018) #990021;
+    border: 1px solid #6E0018;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+/* g<Attributes Style {
+    transform: translate(0, 0.006);
+} */
+user agent stylesheet
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+.header__logo-svg {
+    fill: var(--logo-clr);
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+}
+a {
+    color: var(--clr-link);
+    text-decoration: none;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+body {
+    background-color: var(--body-bg);
+    color: var(--body-clr);
+    font-size: 1.6rem;
+    font-style: normal;
+    letter-spacing: -.64px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Montserrat,sans-serif;
+}
+.btn, .h__icon, body {
+    line-height: 1;
+}
+:root.mystic-copper {
+    --theme: var(--theme-mystic-copper);
+    --logo-clr: var(--theme-mystic-copper);
+    --body-bg: #fff;
+    --body-clr: var(--clr-light);
+    --bg-42: #c4c3c3;
+    --clr: #010101;
+    --clr-pri: var(--clr-dark);
+    --clr-sec: #000;
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --hover-clr-pri: #000;
+}
+:root {
+    --theme-orion-red: #eb100c;
+    --theme-sirius-white: #fff;
+    --theme-all-star-black: #010101;
+    --theme-jasper-red: #892226;
+    --theme-moonstone-white: #e4e4e4;
+    --theme-mystic-copper: #91493d;
+    --theme-cosmic-carbon: #5f6354;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-link: #d1001f;
+    --clr-txt-light: #d0d0d0;
+    --clr-primary: #91001f;
+    --clr-primary-dark: #5e0014;
+    --btn-f-size: 1.3rem;
+    --btn-f-weight: 600;
+    --btn-pad: 13px 32px 12px;
+    --page-bleed: 30px;
+    --theme: var(--theme-orion-red);
+    --logo-clr: var(--clr-dark);
+    --body-bg: #eee;
+    --body-clr: var(--clr-dark);
+    --bg-42: #c4c3c3;
+    --clr: var(--theme-orion-red);
+    --clr-pri: var(--clr-dark);
+    --clr-sec: var(--clr-dark);
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --clr-sec-btn: var(--clr-light);
+    --clr-sec-btn-bg: var(--clr-dark);
+    --hover-clr-pri: #ff0400;
+    --font-display: CA-MagicHour,sans-serif;
+}
+html {
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 62.5%;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#990021,#6E0018) #990021;
+    border: 1px solid #6E0018;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+.active-slide-1 .header .header__loc, .active-slide-8 .header .header__loc {
+    opacity: 1;
+}
+.header .header__loc {
+    --bg-clr: transparent;
+    --clr: var(--logo-clr);
+    --border-clr: var(--logo-clr);
+    --radius: 0;
+    --padding: 12px 14px;
+    --hover-clr: var(--theme);
+    --bg-hover-clr: transparent;
+    --border-hover-clr: var(--theme);
+    opacity: 0;
+    transition: transform .9s ease-in;
+}
+.btn {
+    --bg-clr: transparent;
+    --bg-hover-clr: transparent;
+    --border-clr: transparent;
+    --border-hover-clr: transparent;
+    --clr: #FFF;
+    --hover-clr: #FC0C39;
+    --font-size: 1.4rem;
+    --radius: 4px;
+    --padding: 10px 12px;
+    -webkit-appearance: none;
+    background-color: var(--bg-clr);
+    border: 1px solid var(--border-clr);
+    border-radius: var(--radius);
+    color: var(--clr);
+    cursor: pointer;
+    display: block;
+    font-size: var(--font-size);
+    font-weight: 600;
+    overflow: hidden;
+    padding: var(--padding);
+    position: relative;
+    text-align: center;
+    will-change: background,border,color;
+    transition: background .2s ease-in,border .2s ease-in,color .2s ease-in;
+}
+.btn, .h__icon, body {
+    line-height: 1;
+}
+a {
+    color: var(--clr-link);
+    text-decoration: none;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+body {
+    background-color: var(--body-bg);
+    color: var(--body-clr);
+    font-size: 1.6rem;
+    font-style: normal;
+    letter-spacing: -.64px;
+    overflow-x: hidden;
+    width: 100%;
+}
+body, button, input, select, textarea {
+    font-family: Montserrat,sans-serif;
+}
+:root.mystic-copper {
+    --theme: var(--theme-mystic-copper);
+    --logo-clr: var(--theme-mystic-copper);
+    --body-bg: #fff;
+    --body-clr: var(--clr-light);
+    --bg-42: #c4c3c3;
+    --clr: #010101;
+    --clr-pri: var(--clr-dark);
+    --clr-sec: #000;
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --hover-clr-pri: #000;
+}
+:root {
+    --theme-orion-red: #eb100c;
+    --theme-sirius-white: #fff;
+    --theme-all-star-black: #010101;
+    --theme-jasper-red: #892226;
+    --theme-moonstone-white: #e4e4e4;
+    --theme-mystic-copper: #91493d;
+    --theme-cosmic-carbon: #5f6354;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-link: #d1001f;
+    --clr-txt-light: #d0d0d0;
+    --clr-primary: #91001f;
+    --clr-primary-dark: #5e0014;
+    --btn-f-size: 1.3rem;
+    --btn-f-weight: 600;
+    --btn-pad: 13px 32px 12px;
+    --page-bleed: 30px;
+    --theme: var(--theme-orion-red);
+    --logo-clr: var(--clr-dark);
+    --body-bg: #eee;
+    --body-clr: var(--clr-dark);
+    --bg-42: #c4c3c3;
+    --clr: var(--theme-orion-red);
+    --clr-pri: var(--clr-dark);
+    --clr-sec: var(--clr-dark);
+    --clr-btn: var(--clr-light);
+    --clr-btn-bg: var(--theme);
+    --clr-sec-btn: var(--clr-light);
+    --clr-sec-btn-bg: var(--clr-dark);
+    --hover-clr-pri: #ff0400;
+    --font-display: CA-MagicHour,sans-serif;
+}
+html {
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 62.5%;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgba(255,255,255,.3);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(to bottom,#990021,#6E0018) #990021;
+    border: 1px solid #6E0018;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+}
+
+.vertical-strip {
+    height: 178px;
+    width: 62px;
+    z-index: 1;
+    top: 17.5vh;
+    right: 30px;
+}
+.header, .vertical-strip, html {
+    position: fixed;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.vertical-strip:before, .vertical-strip__icon:before {
+    left: auto;
+    right: 0;
+    width: 48px;
+}
+.vertical-strip:after, .vertical-strip:before, .vertical-strip__icon:after, .vertical-strip__icon:before {
+    background-color: var(--theme);
+    content: "";
+    display: block;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+
+.vertical-strip__icon {
+    align-items: center;
+    display: flex;
+    height: 178px;
+    justify-content: center;
+    left: 0;
+    padding: 15px 0;
+    position: relative;
+    transition: tranform .2s ease-in;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+.vertical-strip:after, .vertical-strip__icon:after {
+    width: 4px;
+}
+.vertical-strip:after, .vertical-strip:before, .vertical-strip__icon:after, .vertical-strip__icon:before {
+    background-color: var(--theme);
+    content: "";
+    display: block;
+    height: 100vh;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+*, :after, :before, html {
+    box-sizing: border-box;
+}
